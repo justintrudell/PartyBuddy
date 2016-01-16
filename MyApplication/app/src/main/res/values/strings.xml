@@ -1,9 +1,15 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">booze buddy</string>
     <string name="action_settings">Settings</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
     <string name="title_activity_display_message">My Message</string>
-    <string name="title_activity_ride_the_bus">RideTheBusActivity</string>
+    <string name="title_activity_ride_the_bus">ride the bus</string>
     <string name="rideTheBus">RIDE THE BUS</string>
+    <string name="rideTheBusPlayers">RIDE THE BUS</string>
+    <string name="kingsCup">KINGS CUP</string>
+    <string name="kingsCupPlayers">KINGS CUP</string>
+    <string name="title_activity_kings_cup">KINGS CUP</string>
+    <string name="title_activity_get_crunk">GET CRUNK</string>
+    <string name="title_activity_fingers">FINGERS</string>
 </resources>
