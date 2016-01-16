@@ -20,6 +20,7 @@
     <string name="title_activity_kings_cup">Kings Cup</string>
     <string name="title_activity_get_crunk">Get Crunk</string>
     <string name="title_activity_fingers">Fingers</string>
+<<<<<<< HEAD
     <string name="kingsCupAceName">Waterfall</string>
     <string name="kingsCupAceRule">Start drinking; each player starts drinking at the same time as the person to their left. Player cannot stop until the player before them stops.</string>
     <string name="kingsCup2Name">You</string>
@@ -48,4 +49,7 @@
     <string name="kingsCupKingRule">Pour some of your drink into the Kings Cup. When the last king is drawn, the player must drink the entire cup.</string>
     <string name="title_activity_kings_cup_materials">KingsCupMaterials</string>
     <string name="title_activity_kings_cup_how_to_play">KingsCupHowToPlay</string>
+=======
+    <string name="title_activity_kings_cup_materials">KingsCupMaterials</string>
+>>>>>>> 628e78a58c6f1f434151f85dd294eba835d7bc95
 </resources>
