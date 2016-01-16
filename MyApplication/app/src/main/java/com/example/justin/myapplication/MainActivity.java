@@ -55,8 +55,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void goToKingsCup(View view) {
+    public void goToRideTheBus(View view) {
         Intent intent = new Intent(this, RideTheBusActivity.class);
         startActivity(intent);
     }
+
 }

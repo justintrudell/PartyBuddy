@@ -29,7 +29,8 @@
         android:layout_height="75dp"
         android:layout_width="390dp"
         android:background="@null"
-        android:src="@drawable/ridethebusbutton"/>
+        android:src="@drawable/ridethebusbutton"
+        android:onClick="goToRideTheBus"/>
 
     <ImageButton
         android:layout_height="75dp"
