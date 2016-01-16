@@ -15,36 +15,36 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
-        android:layout_width="390dp"
+        android:layout_width="360dp"
         android:layout_height="170dp"
         android:src="@drawable/boozebuddy"/>
 
     <ImageButton
         android:layout_height="75dp"
-        android:layout_width="390dp"
+        android:layout_width="360dp"
         android:background="@null"
-        android:src="@drawable/kingsbutton"
+        android:src="@drawable/kingscupbutton"
         android:onClick="goToKingsCup"/>
 
     <ImageButton
         android:layout_height="75dp"
-        android:layout_width="390dp"
+        android:layout_width="360dp"
         android:background="@null"
         android:src="@drawable/ridethebusbutton"
         android:onClick="goToRideTheBus"/>
 
     <ImageButton
         android:layout_height="75dp"
-        android:layout_width="390dp"
+        android:layout_width="360dp"
         android:background="@null"
         android:src="@drawable/fingersbutton"
         android:onClick="goToFingers"/>
 
     <ImageButton
         android:layout_height="75dp"
-        android:layout_width="390dp"
+        android:layout_width="360dp"
         android:background="@null"
-        android:src="@drawable/gitcrunk"
-        android:onClick="goToGetCrunk"/>/>
+        android:src="@drawable/gitcrunkbutton"
+        android:onClick="goToGetCrunk"/>
 
 </LinearLayout>
