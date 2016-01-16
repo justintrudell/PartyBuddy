@@ -17,71 +17,54 @@ import java.util.List;
 
 public class RideTheBusActivity extends AppCompatActivity {
 
-    ExpandableListAdapter listAdapter;
-    ExpandableListView expListView;
-    List<ImageView> listDataHeader;
-    HashMap<ImageView, List<String>> listDataChild;
+    private ExpandListAdapter ExpAdapter;
+    private ArrayList<Group> ExpListItems;
+    private ExpandableListView ExpandList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setTitle(getResources().getText(R.string.rideTheBus));
         setContentView(R.layout.activity_ride_the_bus);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        // get the listview
-        expListView = (ExpandableListView) findViewById(R.id.lvExp);
-
-        // preparing list data
-        prepareListData();
-
-        listAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild);
-
-        // setting list adapter
-        expListView.setAdapter(listAdapter);
+        ExpandList = (ExpandableListView) findViewById(R.id.exp_list);
+        ExpListItems = SetStandardGroups();
+        ExpAdapter = new ExpandListAdapter(RideTheBusActivity.this, ExpListItems);
+        ExpandList.setAdapter(ExpAdapter);
     }
 
-    private void prepareListData() {
-        listDataHeader = new ArrayList<ImageView>();
-        listDataChild = new HashMap<ImageView, List<String>>();
+    public ArrayList<Group> SetStandardGroups() {
 
-        ImageView howToPlay = (ImageView) (findViewById(R.id.imageView1));
-        // Adding child data
-        listDataHeader.add(howToPlay);
-        listDataHeader.add(howToPlay);
-        listDataHeader.add(howToPlay);
+        int group_names[] = { R.drawable.howtoplay, R.drawable.whatyouneed };
 
-        // Adding child data
-        List<String> top250 = new ArrayList<String>();
-        top250.add("The Shawshank Redemption");
-        top250.add("The Godfather");
-        top250.add("The Godfather: Part II");
-        top250.add("Pulp Fiction");
-        top250.add("The Good, the Bad and the Ugly");
-        top250.add("The Dark Knight");
-        top250.add("12 Angry Men");
+        String text_groups[] = { "Hello this is the first test", "Hello this is the second test" };
 
-        List<String> nowShowing = new ArrayList<String>();
-        nowShowing.add("The Conjuring");
-        nowShowing.add("Despicable Me 2");
-        nowShowing.add("Turbo");
-        nowShowing.add("Grown Ups 2");
-        nowShowing.add("Red 2");
-        nowShowing.add("The Wolverine");
+        ArrayList<Group> list = new ArrayList<Group>();
 
-        List<String> comingSoon = new ArrayList<String>();
-        comingSoon.add("2 Guns");
-        comingSoon.add("The Smurfs 2");
-        comingSoon.add("The Spectacular Now");
-        comingSoon.add("The Canyons");
-        comingSoon.add("Europa Report");
+        ArrayList<Child> ch_list;
 
-        listDataChild.put(listDataHeader.get(0), top250); // Header, Child data
-        listDataChild.put(listDataHeader.get(1), nowShowing);
-        listDataChild.put(listDataHeader.get(2), comingSoon);
+        int size = 2;
+        int j = 0;
+
+        for (int group_name : group_names) {
+            Group gru = new Group();
+            gru.setImage(group_name);
+
+            ch_list = new ArrayList<Child>();
+            for (; j < size; j++) {
+                Child ch = new Child();
+                ch.setText(text_groups[j]);
+                ch_list.add(ch);
+            }
+            gru.setItems(ch_list);
+            list.add(gru);
+
+        }
+
+        return list;
     }
 }
 
