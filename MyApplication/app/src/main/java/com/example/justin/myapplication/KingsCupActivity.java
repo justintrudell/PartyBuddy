@@ -1,5 +1,6 @@
 package com.example.justin.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,6 +19,16 @@ public class KingsCupActivity extends AppCompatActivity {
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    public void goToKingsCupMaterials(View view) {
+        Intent intent = new Intent(this, KingsCupMaterials.class);
+        startActivity(intent);
+    }
+
+    public void goToKingsCupHowToPlay(View view) {
+        Intent intent = new Intent(this, KingsCupHowToPlay.class);
+        startActivity(intent);
     }
 
 }

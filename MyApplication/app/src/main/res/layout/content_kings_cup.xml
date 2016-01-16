@@ -45,5 +45,25 @@
         android:typeface="sans"
         android:layout_gravity="center"/>
 
+    <ImageView
+        android:id="@+id/kingsCupWhatYouNeed"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:src="@drawable/whatyouneed"
+        android:onClick="goToKingsCupMaterials"/>
+
+    <ImageView
+        android:id="@+id/kingsCupHowYouPlay"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:src="@drawable/howtoplay"
+        android:onClick="goToKingsCupHowToPlay"/>
+
 
 </LinearLayout>
