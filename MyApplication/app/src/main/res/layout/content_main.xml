@@ -44,11 +44,7 @@
         android:layout_height="75dp"
         android:layout_width="360dp"
         android:background="@null"
-<<<<<<< Updated upstream
-        android:src="@drawable/gitcrunk"
-        android:onClick="goToGetCrunk"/>/>
-=======
-        android:src="@drawable/gitcrunkbutton"/>
->>>>>>> Stashed changes
+        android:src="@drawable/gitcrunkbutton"
+        android:onClick="goToGetCrunk"/>
 
 </LinearLayout>
