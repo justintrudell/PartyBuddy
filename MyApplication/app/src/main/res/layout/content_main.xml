@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/background2"
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main"
@@ -13,9 +13,9 @@
     <ImageView
         android:id="@+id/imageView1"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
-        android:layout_width="150dp"
+        android:layout_width="390dp"
         android:layout_height="170dp"
         android:src="@drawable/boozebuddy"/>
 
@@ -23,12 +23,24 @@
         android:layout_height="75dp"
         android:layout_width="390dp"
         android:background="@null"
-        android:src="@drawable/kingscup4copy"/>
+        android:src="@drawable/kingsbutton"/>
 
     <ImageButton
         android:layout_height="75dp"
         android:layout_width="390dp"
         android:background="@null"
-        android:src="@drawable/kingscup4copy"/>
+        android:src="@drawable/ridethebusbutton"/>
+
+    <ImageButton
+        android:layout_height="75dp"
+        android:layout_width="390dp"
+        android:background="@null"
+        android:src="@drawable/fingersbutton"/>
+
+    <ImageButton
+        android:layout_height="75dp"
+        android:layout_width="390dp"
+        android:background="@null"
+        android:src="@drawable/gitcrunk"/>
 
 </LinearLayout>
