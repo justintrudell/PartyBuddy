@@ -21,7 +21,7 @@
     <ImageButton
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
-        android:src="@drawable/getcrunk"
+        android:src="@drawable/kingscupbutton2"
         android:background="@null" />
 
 </LinearLayout>
