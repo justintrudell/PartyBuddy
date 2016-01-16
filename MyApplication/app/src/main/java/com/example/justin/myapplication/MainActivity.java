@@ -60,4 +60,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToKingsCup(View view) {
+        Intent intent = new Intent(this, KingsCupActivity.class);
+        startActivity(intent);
+    }
+
 }

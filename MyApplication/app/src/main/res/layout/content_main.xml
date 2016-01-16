@@ -23,7 +23,8 @@
         android:layout_height="75dp"
         android:layout_width="390dp"
         android:background="@null"
-        android:src="@drawable/kingsbutton"/>
+        android:src="@drawable/kingsbutton"
+        android:onClick="goToKingsCup"/>
 
     <ImageButton
         android:layout_height="75dp"

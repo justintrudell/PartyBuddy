@@ -6,4 +6,7 @@
     <string name="title_activity_display_message">My Message</string>
     <string name="title_activity_ride_the_bus">RideTheBusActivity</string>
     <string name="rideTheBus">RIDE THE BUS</string>
+    <string name="rideTheBusPlayers">RIDE THE BUS</string>
+    <string name="kingsCup">KINGS CUP</string>
+    <string name="kingsCupPlayers">KINGS CUP</string>
 </resources>
