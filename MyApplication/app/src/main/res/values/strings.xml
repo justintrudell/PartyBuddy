@@ -5,11 +5,19 @@
     <string name="button_send">Send</string>
     <string name="title_activity_display_message">My Message</string>
     <string name="title_activity_ride_the_bus">ride the bus</string>
-    <string name="rideTheBus">RIDE THE BUS</string>
-    <string name="rideTheBusPlayers">RIDE THE BUS</string>
-    <string name="kingsCup">KINGS CUP</string>
-    <string name="kingsCupPlayers">KINGS CUP</string>
-    <string name="title_activity_kings_cup">KINGS CUP</string>
-    <string name="title_activity_get_crunk">GET CRUNK</string>
-    <string name="title_activity_fingers">FINGERS</string>
+    <string name="rideTheBus">Ride the Bus</string>
+    <string name="rideTheBusDesc">Requires a combination of luck and logic in order to not get completely wasted.</string>
+    <string name="rideTheBusPlayers">2 or more players</string>
+    <string name="kingsCup">Kings Cup</string>
+    <string name="kingsCupDesc">Players drink and give drinks to other players based on cards drawn from a standard deck of cards.</string>
+    <string name="kingsCupPlayers">2 or more players</string>
+    <string name="fingers">Fingers</string>
+    <string name="fingersDesc">Jungle juice in the middle. Last man standing drinks.</string>
+    <string name="fingersPlayers">3 or more players</string>
+    <string name="getCrunk">Get Crunk</string>
+    <string name="getCrunkDesc">A fun activity to enjoy by yourself or with friends.</string>
+    <string name="getCrunkPlayers">1 or more players</string>
+    <string name="title_activity_kings_cup">Kings Cup</string>
+    <string name="title_activity_get_crunk">Get Crunk</string>
+    <string name="title_activity_fingers">Fingers</string>
 </resources>

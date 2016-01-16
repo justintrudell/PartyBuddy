@@ -16,16 +16,17 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
         android:layout_width="390dp"
-        android:layout_height="170dp"
+        android:layout_height="150dp"
         android:src="@drawable/ridethebus"/>
-
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/rideTheBus"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/rideTheBusDesc"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:typeface="sans"
@@ -36,6 +37,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:text="@string/rideTheBusPlayers"
         android:textColor="#FFFFFF"
         android:textSize="20dp"
