@@ -23,12 +23,12 @@
         android:layout_height="75dp"
         android:layout_width="390dp"
         android:background="@null"
-        android:src="@drawable/kingscup4copy"/>
+        android:src="@drawable/kingscupbutton"/>
 
     <ImageButton
         android:layout_height="75dp"
         android:layout_width="390dp"
         android:background="@null"
-        android:src="@drawable/kingscup4copy"/>
+        android:src="@drawable/kingscupbutton"/>
 
 </LinearLayout>
