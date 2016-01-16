@@ -16,36 +16,11 @@
         android:layout_marginBottom="60dp"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/beer"/>
+        android:src="@drawable/boozebuddy"/>
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_weight="1.0"
-        android:layout_gravity="center"
-        android:layout_marginBottom="5dp"
-        android:layout_height="150dp"
-        android:src="@drawable/horizontal"
-        android:onClick="goToKingsCup"/>
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_weight="1.0"
-        android:layout_gravity="center"
-        android:layout_height="150dp"
-        android:src="@drawable/horizontal" />
-
-
-   <EditText
-        android:id="@+id/edit_message"
-        android:layout_weight="1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/edit_message"/>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/button_send"
-        android:onClick="sendMessage"/>
+        android:layout_width="390dp"
+        android:layout_height="100dp" />
 
 
 </LinearLayout>
