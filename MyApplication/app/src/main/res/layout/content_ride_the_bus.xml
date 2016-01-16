@@ -45,4 +45,10 @@
         android:typeface="sans"
         android:layout_gravity="center"/>
 
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+    </ExpandableListView>
+
 </LinearLayout>
