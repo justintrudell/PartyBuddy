@@ -13,42 +13,51 @@
     <ImageView
         android:id="@+id/rideTheBusView"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
-        android:layout_width="390dp"
-        android:layout_height="150dp"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="340dp"
+        android:layout_height="140dp"
         android:src="@drawable/ridethebus"/>
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/rideTheBusDesc"
-        android:textColor="#FFFFFF"
-        android:textSize="20dp"
-        android:typeface="sans"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:src="@drawable/startbutton"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/rideTheBusPlayers"
-        android:textColor="#FFFFFF"
-        android:textSize="20dp"
-        android:typeface="sans"
-        android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textAlignment="center"
+            android:text="@string/rideTheBusDesc"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/rideTheBusPlayers"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            android:typeface="sans"
+            android:layout_gravity="center"/>
 
-    <ExpandableListView
-        android:id="@+id/exp_list"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent">
-    </ExpandableListView>
+        <ExpandableListView
+            android:id="@+id/exp_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ExpandableListView>
+
 
 </LinearLayout>
+

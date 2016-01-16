@@ -40,7 +40,8 @@ public class RideTheBusActivity extends AppCompatActivity {
 
         int group_names[] = { R.drawable.howtoplay, R.drawable.whatyouneed };
 
-        String text_groups[] = { "Hello this is the first test", "Hello this is the second test" };
+        String text_groups[] = { "Hello this is the first test", "Hello this is the second test",
+                "Hello this is the first test", "Hello this is the second test" };
 
         ArrayList<Group> list = new ArrayList<Group>();
 
@@ -62,9 +63,11 @@ public class RideTheBusActivity extends AppCompatActivity {
             gru.setItems(ch_list);
             list.add(gru);
 
+            size = size+2;
         }
 
         return list;
     }
+
 }
 
