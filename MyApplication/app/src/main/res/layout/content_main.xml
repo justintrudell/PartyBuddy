@@ -37,12 +37,14 @@
         android:layout_height="75dp"
         android:layout_width="390dp"
         android:background="@null"
-        android:src="@drawable/fingersbutton"/>
+        android:src="@drawable/fingersbutton"
+        android:onClick="goToFingers"/>
 
     <ImageButton
         android:layout_height="75dp"
         android:layout_width="390dp"
         android:background="@null"
-        android:src="@drawable/gitcrunk"/>
+        android:src="@drawable/gitcrunk"
+        android:onClick="goToGetCrunk"/>/>
 
 </LinearLayout>

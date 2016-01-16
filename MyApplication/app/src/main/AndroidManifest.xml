@@ -36,6 +36,33 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.justin.myapplication.MainActivity" />
         </activity>
+        <activity
+            android:name=".KingsCupActivity"
+            android:label="@string/title_activity_kings_cup"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GetCrunkActivity"
+            android:label="@string/title_activity_get_crunk"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FingersActivity"
+            android:label="@string/title_activity_fingers"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

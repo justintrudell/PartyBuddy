@@ -65,4 +65,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void goToFingers(View view) {
+        Intent intent = new Intent(this, FingersActivity.class);
+        startActivity(intent);
+    }
+
+    public void goToGetCrunk(View view) {
+        Intent intent = new Intent(this, GetCrunkActivity.class);
+        startActivity(intent);
+    }
+
 }
