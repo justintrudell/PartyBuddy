@@ -14,56 +14,23 @@
         android:id="@+id/kingsCupImageView"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
-        android:layout_width="390dp"
-        android:layout_height="170dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="340dp"
+        android:layout_height="140dp"
         android:src="@drawable/kings"/>
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/kingsCupDesc"
-        android:textColor="#FFFFFF"
-        android:textSize="20dp"
-        android:typeface="sans"
-        android:layout_gravity="center"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:text="@string/kingsCupPlayers"
-        android:textColor="#FFFFFF"
-        android:textSize="20dp"
-        android:typeface="sans"
-        android:layout_gravity="center"/>
-
-    <ImageView
-        android:id="@+id/kingsCupWhatYouNeed"
         android:layout_gravity="center"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp"
-        android:layout_width="340dp"
-        android:layout_height="70dp"
-        android:src="@drawable/whatyouneed"
-        android:onClick="goToKingsCupMaterials"/>
+        android:src="@drawable/startbutton"/>
 
-    <ImageView
-        android:id="@+id/kingsCupHowYouPlay"
-        android:layout_gravity="center"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp"
-        android:layout_width="340dp"
-        android:layout_height="70dp"
-        android:src="@drawable/howtoplay"
-        android:onClick="goToKingsCupHowToPlay"/>
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ExpandableListView>
+
 
 
 </LinearLayout>

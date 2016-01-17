@@ -63,6 +63,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.justin.myapplication.MainActivity" />
         </activity>
+<<<<<<< HEAD
         <activity
             android:name=".KingsCupMaterials"
             android:label="@string/title_activity_kings_cup_materials"
@@ -86,6 +87,8 @@
             android:name=".FingersInstructions"
             android:label="@string/title_activity_fingers_instructions"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+=======
+>>>>>>> 397aa8b3904a25a5b56e342a82a9a91f1ae26194
     </application>
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 </manifest>

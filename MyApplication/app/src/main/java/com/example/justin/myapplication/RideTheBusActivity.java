@@ -1,20 +1,18 @@
 package com.example.justin.myapplication;
 
 import android.content.Intent;
+<<<<<<< HEAD
 import android.graphics.Bitmap;
 import android.media.Image;
+=======
+>>>>>>> 397aa8b3904a25a5b56e342a82a9a91f1ae26194
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ExpandableListView;
-import android.widget.ImageView;
 
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 
 public class RideTheBusActivity extends AppCompatActivity {
 
@@ -95,11 +93,14 @@ public class RideTheBusActivity extends AppCompatActivity {
 
         return list;
     }
+<<<<<<< HEAD
 
     public void goRideTheBusInstructions(View view) {
         Intent intent = new Intent(this, RideTheBusInstructions.class);
         startActivity(intent);
     }
 
+=======
+>>>>>>> 397aa8b3904a25a5b56e342a82a9a91f1ae26194
 }
 

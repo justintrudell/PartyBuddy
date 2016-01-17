@@ -23,14 +23,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+<<<<<<< HEAD
         android:src="@drawable/startbutton"
         android:onClick="goRideTheBusInstructions"/>
+=======
+        android:src="@drawable/startbutton" />
+>>>>>>> 397aa8b3904a25a5b56e342a82a9a91f1ae26194
 
-        <ExpandableListView
-            android:id="@+id/exp_list"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </ExpandableListView>
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ExpandableListView>
 
 
 </LinearLayout>
