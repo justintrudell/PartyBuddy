@@ -7,25 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="328a1aae-1ca1-4377-a76e-1c022d5e4550" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/GetCrunkStart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_kings_cup_start.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_get_crunk_start.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_kings_cup_start.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_instructions.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingersInstructions.java" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/GetCrunkInstructions.java" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingersStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusInstructions.java" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/KingsCupStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_fingers_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_fingers_start.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_get_crunk_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_start.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_get_crunk_start.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_fingers_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_fingers_start.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_get_crunk_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_start.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingerStep6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingersStep2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingersStep3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingersStep4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingersStep5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStep2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStep3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStep4.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStep5.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStep6.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStep7.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_finger_step6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_fingers_step2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_fingers_step3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_fingers_step4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_fingers_step5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_step2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_step3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_step4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_step5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_step6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_step7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_finger_step6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_fingers_step2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_fingers_step3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_fingers_step4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_fingers_step5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_step2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_step3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_step4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_step5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_step6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_step7.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApplication/.idea/encodings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusActivity.java" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/.idea/misc.xml" afterPath="$PROJECT_DIR$/MyApplication/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/.idea/vcs.xml" afterPath="$PROJECT_DIR$/MyApplication/.idea/vcs.xml" />
     </list>
     <ignored path="hackthesixfeatlilandem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +64,18 @@
     <favorites_list name="hackthesixfeatlilandem" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="RideTheBusStep2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStep2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.46052632">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,6 +139,82 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackthesixfeatlilandem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,7 +394,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -362,6 +468,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19736843">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStep2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46052632">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
         </state>
       </provider>

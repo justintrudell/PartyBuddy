@@ -90,5 +90,9 @@ public class KingsCupActivity extends AppCompatActivity {
         return list;
     }
 
+    public void goToKingsCupStart(View view) {
+        Intent intent = new Intent(this, KingsCupStart.class);
+        startActivity(intent);
+    }
 
 }

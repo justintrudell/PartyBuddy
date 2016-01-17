@@ -101,6 +101,105 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.justin.myapplication.KingsCupActivity" />
         </activity>
+        <activity
+            android:name=".RideTheBusStep2"
+            android:label="@string/title_activity_ride_the_bus_step2"
+            android:parentActivityName=".RideTheBusStart"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.RideTheBusStart" />
+        </activity>
+        <activity
+            android:name=".RideTheBusStep3"
+            android:label="@string/title_activity_ride_the_bus_step3"
+            android:parentActivityName=".RideTheBusStep2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.RideTheBusStep2" />
+        </activity>
+        <activity
+            android:name=".RideTheBusStep4"
+            android:label="@string/title_activity_ride_the_bus_step4"
+            android:parentActivityName=".RideTheBusStep3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.RideTheBusStep3" />
+        </activity>
+        <activity
+            android:name=".RideTheBusStep5"
+            android:label="@string/title_activity_ride_the_bus_step5"
+            android:parentActivityName=".RideTheBusStep4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.RideTheBusStep4" />
+        </activity>
+        <activity
+            android:name=".RideTheBusStep6"
+            android:label="@string/title_activity_ride_the_bus_step6"
+            android:parentActivityName=".RideTheBusStep5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.RideTheBusStep5" />
+        </activity>
+        <activity
+            android:name=".RideTheBusStep7"
+            android:label="@string/title_activity_ride_the_bus_step7"
+            android:parentActivityName=".RideTheBusStep6"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.RideTheBusStep6" />
+        </activity>
+        <activity
+            android:name=".FingersStep2"
+            android:label="@string/title_activity_fingers_step2"
+            android:parentActivityName=".FingersStart"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.FingersStart" />
+        </activity>
+        <activity
+            android:name=".FingersStep3"
+            android:label="@string/title_activity_fingers_step3"
+            android:parentActivityName=".FingersStep2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.FingersStep2" />
+        </activity>
+        <activity
+            android:name=".FingersStep4"
+            android:label="@string/title_activity_fingers_step4"
+            android:parentActivityName=".FingersStep3"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.FingersStep3" />
+        </activity>
+        <activity
+            android:name=".FingersStep5"
+            android:label="@string/title_activity_fingers_step5"
+            android:parentActivityName=".FingersStep4"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.FingersStep4" />
+        </activity>
+        <activity
+            android:name=".FingerStep6"
+            android:label="@string/title_activity_finger_step6"
+            android:parentActivityName=".FingersStep5"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.FingersStep5" />
+        </activity>
     </application>
 
 </manifest>

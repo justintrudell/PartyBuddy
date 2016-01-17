@@ -73,4 +73,15 @@
     <string name="title_activity_get_crunk_start">GetCrunkStart</string>
     <string name="title_activity_fingers_start">FingersStart</string>
     <string name="title_activity_kings_cup_start">KingsCupStart</string>
+    <string name="title_activity_ride_the_bus_step2">RideTheBusStep2</string>
+    <string name="title_activity_ride_the_bus_step3">RideTheBusStep3</string>
+    <string name="title_activity_ride_the_bus_step4">RideTheBusStep4</string>
+    <string name="title_activity_ride_the_bus_step5">RideTheBusStep5</string>
+    <string name="title_activity_ride_the_bus_step6">RideTheBusStep6</string>
+    <string name="title_activity_ride_the_bus_step7">RideTheBusStep7</string>
+    <string name="title_activity_fingers_step2">FingersStep2</string>
+    <string name="title_activity_fingers_step3">FingersStep3</string>
+    <string name="title_activity_fingers_step4">FingersStep4</string>
+    <string name="title_activity_fingers_step5">FingersStep5</string>
+    <string name="title_activity_finger_step6">FingerStep6</string>
 </resources>

@@ -84,9 +84,12 @@ public class RideTheBusActivity extends AppCompatActivity {
         gru.setItems(ch_list);
         list.add(gru);
 
-
-
         return list;
+    }
+
+    public void goToRideTheBusStart(View view) {
+        Intent intent = new Intent(this, RideTheBusStart.class);
+        startActivity(intent);
     }
 }
 
