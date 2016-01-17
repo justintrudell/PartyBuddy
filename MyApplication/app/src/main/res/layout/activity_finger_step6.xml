@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.justin.myapplication.FingerStep6">
+    tools:context=".FingersStep6">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_finger_step6" />
+    <include layout="@layout/content_fingers_step6" />
 
 
 </android.support.design.widget.CoordinatorLayout>

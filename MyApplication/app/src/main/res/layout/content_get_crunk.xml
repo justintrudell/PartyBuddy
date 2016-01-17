@@ -14,7 +14,7 @@
         android:id="@+id/getCrunkView"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="5dp"
         android:layout_width="390dp"
         android:layout_height="170dp"
         android:src="@drawable/gitcrunklogo"/>
@@ -26,7 +26,13 @@
         android:src="@drawable/startbutton"
         android:onClick="goToGetCrunkStart"/>
 
-    <TextView
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ExpandableListView>
+
+<!--    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -51,7 +57,6 @@
         android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:typeface="sans"
-        android:layout_gravity="center"/>
-
+        android:layout_gravity="center"/> -->
 
 </LinearLayout>
