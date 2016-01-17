@@ -157,7 +157,7 @@
         </activity>
         <activity
             android:name=".FingersStep2"
-            android:label="@string/title_activity_fingers_step2"
+            android:label=""
             android:parentActivityName=".FingersStart"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -166,7 +166,7 @@
         </activity>
         <activity
             android:name=".FingersStep3"
-            android:label="@string/title_activity_fingers_step3"
+            android:label=""
             android:parentActivityName=".FingersStep2"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -175,7 +175,7 @@
         </activity>
         <activity
             android:name=".FingersStep4"
-            android:label="@string/title_activity_fingers_step4"
+            android:label=""
             android:parentActivityName=".FingersStep3"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -184,7 +184,7 @@
         </activity>
         <activity
             android:name=".FingersStep5"
-            android:label="@string/title_activity_fingers_step5"
+            android:label=""
             android:parentActivityName=".FingersStep4"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -193,7 +193,7 @@
         </activity>
         <activity
             android:name=".FingerStep6"
-            android:label="@string/title_activity_finger_step6"
+            android:label=""
             android:parentActivityName=".FingersStep5"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

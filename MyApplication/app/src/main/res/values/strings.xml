@@ -65,8 +65,8 @@
     <string name="fingersInstructionsLine3">• Players are eliminated if they correctly guess number of fingers that will be touching cup</string>
     <string name="fingersInstructionsLine4">• At the same time, the first person must guess how many fingers will remain on the cup</string>
     <string name="getCrunk">Get Crunk</string>
-    <string name="getCrunkDesc">A fun activity to enjoy by yourself or with friends.</string>
-    <string name="getCrunkPlayers">1 or more players</string>
+    <string name="getCrunkDesc">• A fun activity to enjoy by yourself or with friends.</string>
+    <string name="getCrunkPlayers">• 1 or more players</string>
     <string name="getCrunkInstructions">Jk this is illegal...</string>
     <string name="title_activity_kings_cup">Kings Cup</string>
     <string name="title_activity_get_crunk">Get Crunk</string>
