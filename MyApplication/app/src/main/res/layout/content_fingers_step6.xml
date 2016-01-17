@@ -11,15 +11,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.justin.myapplication.FingersStep3"
-    tools:showIn="@layout/activity_fingers_step3">
+    tools:context=".FingersStep6"
+    tools:showIn="@layout/activity_finger_step6">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Step 3"
+        android:text="Step 6"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
         android:typeface="sans"
@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:src="@drawable/putfingerson"/>
+        android:src="@drawable/repeat"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         android:layout_marginTop="40dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/fingersStep3"
+        android:text="@string/fingersStep6"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:typeface="sans"
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/next"
-        android:layout_marginTop="150dp"
-        android:onClick="goToFingersStep4"/>
+        android:layout_marginTop="140dp"
+        android:onClick="goToHome"/>
 
 </LinearLayout>
