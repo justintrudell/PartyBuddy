@@ -6,27 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="328a1aae-1ca1-4377-a76e-1c022d5e4550" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/GetCrunkStart.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_kings_cup_start.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_get_crunk_start.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_kings_cup_start.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_instructions.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingersInstructions.java" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/GetCrunkInstructions.java" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/FingersStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusInstructions.java" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/KingsCupStart.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_fingers_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_fingers_start.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_get_crunk_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_start.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_get_crunk_start.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_fingers_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_fingers_start.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_get_crunk_instructions.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus_start.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusActivity.java" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/java/com/example/justin/myapplication/RideTheBusActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/activity_ride_the_bus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/layout/content_ride_the_bus.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyApplication/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/MyApplication/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="328a1aae-1ca1-4377-a76e-1c022d5e4550" name="Default" comment="" />
     <ignored path="hackthesixfeatlilandem.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
