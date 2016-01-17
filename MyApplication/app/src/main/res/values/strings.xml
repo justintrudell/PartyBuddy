@@ -21,17 +21,10 @@
     <string name="rideTheBusPyramid">PYRAMID</string>
     <string name="rideTheBusRideBus">RIDE THE BUS</string>
     <string name="rideTheBusQ1">Dealer: Ask each player \"Red or Black?\"</string>
-<<<<<<< HEAD
-    <string name="rideTheBusQ2">Dealer: Ask each player "Higher or Lower?"</string>
-    <string name="rideTheBusQ3">Dealer: Ask each player "Between or Outside?"</string>
-    <string name="rideTheBusQ4">Dealer: Ask each player "Pick a suit?"</string>
-    <string name="rideTheBusQ5">Dealer: Ask each player "Pick a card?"</string>
-=======
     <string name="rideTheBusQ2">Dealer: Ask each player \"Higher or Lower?\"</string>
     <string name="rideTheBusQ3">Dealer: Ask each player \"Between or Outside?\"</string>
     <string name="rideTheBusQ4">Dealer: Ask each player \"Pick a suit?\"</string>
     <string name="rideTheBusQ5">Dealer: Ask each player \"Pick a card? (Disregard suit)\"</string>
->>>>>>> 64c3de1a9a7592644b7bf4b675a756109eed373e
     <string name="rideTheBusDrinks1Correct">If correct, player gives 1 drink.</string>
     <string name="rideTheBusDrinks1Incorrect">If incorrect, player takes 1 drink.</string>
     <string name="rideTheBusDrinks2Correct">If correct, player gives 2 drinks.</string>
