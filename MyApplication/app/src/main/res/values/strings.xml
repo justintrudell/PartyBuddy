@@ -53,13 +53,12 @@
     <string name="kingsCupKingRule">Pour some of your drink into the Kings Cup. When the last king is drawn, the player must drink the entire cup.</string>
     <string name="title_activity_kings_cup_materials">KingsCupMaterials</string>
     <string name="title_activity_kings_cup_how_to_play">KingsCupHowToPlay</string>
-<<<<<<< HEAD
-    <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_ride_the_bus_instructions">RideTheBusInstructions</string>
     <string name="title_activity_get_crunk_instructions">GetCrunkInstructions</string>
     <string name="title_activity_fingers_instructions">FingersInstructions</string>
-
-=======
     <string name="title_activity_ride_the_bus_step1">RideTheBusStep1</string>
->>>>>>> 397aa8b3904a25a5b56e342a82a9a91f1ae26194
+    <string name="title_activity_ride_the_bus_start">RideTheBusStart</string>
+    <string name="title_activity_get_crunk_start">GetCrunkStart</string>
+    <string name="title_activity_fingers_start">FingersStart</string>
+    <string name="title_activity_kings_cup_start">KingsCupStart</string>
 </resources>

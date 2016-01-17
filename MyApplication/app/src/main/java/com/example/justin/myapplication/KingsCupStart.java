@@ -7,12 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class FingersInstructions extends AppCompatActivity {
+public class KingsCupStart extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fingers_instructions);
+        setContentView(R.layout.activity_kings_cup_start);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -24,6 +24,7 @@ public class FingersInstructions extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }

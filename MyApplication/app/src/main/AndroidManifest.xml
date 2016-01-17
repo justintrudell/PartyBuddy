@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.justin.myapplication">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -63,32 +65,42 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.justin.myapplication.MainActivity" />
         </activity>
-<<<<<<< HEAD
         <activity
-            android:name=".KingsCupMaterials"
-            android:label="@string/title_activity_kings_cup_materials"
-            android:parentActivityName=".MainActivity">
+            android:name=".RideTheBusStart"
+            android:label="@string/title_activity_ride_the_bus_start"
+            android:parentActivityName=".RideTheBusActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.justin.myapplication.MainActivity" />
+                android:value="com.example.justin.myapplication.RideTheBusActivity" />
         </activity>
         <activity
-            android:name=".KingsCupHowToPlay"
-            android:label="@string/title_activity_kings_cup_how_to_play" />
+            android:name=".GetCrunkStart"
+            android:label="@string/title_activity_get_crunk_start"
+            android:parentActivityName=".GetCrunkActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.GetCrunkActivity" />
+        </activity>
         <activity
-            android:name=".RideTheBusInstructions"
-            android:label="@string/title_activity_ride_the_bus_instructions"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:name=".FingersStart"
+            android:label="@string/title_activity_fingers_start"
+            android:parentActivityName=".FingersActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.FingersActivity" />
+        </activity>
         <activity
-            android:name=".GetCrunkInstructions"
-            android:label="@string/title_activity_get_crunk_instructions"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".FingersInstructions"
-            android:label="@string/title_activity_fingers_instructions"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-=======
->>>>>>> 397aa8b3904a25a5b56e342a82a9a91f1ae26194
+            android:name=".KingsCupStart"
+            android:label="@string/title_activity_kings_cup_start"
+            android:parentActivityName=".KingsCupActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.justin.myapplication.KingsCupActivity" />
+        </activity>
     </application>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
 </manifest>
