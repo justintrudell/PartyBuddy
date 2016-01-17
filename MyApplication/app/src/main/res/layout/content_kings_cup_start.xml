@@ -37,5 +37,16 @@
         android:typeface="sans"
         android:layout_gravity="center"/>
 
+<<<<<<< HEAD
+=======
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="340dp"
+        android:layout_height="140dp"
+        android:src="@drawable/you"/>
+>>>>>>> 961e8cdda0551a57f60f2457913fe6d6378658fb
 
 </LinearLayout>

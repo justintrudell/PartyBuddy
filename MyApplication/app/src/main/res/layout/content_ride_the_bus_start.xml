@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="ROUND 1"
+        android:text="@string/rideTheBusRound1"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         android:typeface="sans"
@@ -34,12 +34,35 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Dealer deals shit"
+        android:text="@string/rideTheBusQ1"
         android:textColor="#FFFFFF"
-        android:textSize="24dp"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/rideTheBusDrinks1Correct"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/rideTheBusDrinks1Incorrect"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 
@@ -47,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/next"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="70dp"
         android:onClick="goToRideTheBusStep2"/>
 
 </LinearLayout>

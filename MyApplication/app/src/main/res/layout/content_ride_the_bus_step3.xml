@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="ROUND 3"
+        android:text="@string/rideTheBusRound3"
         android:textColor="#FFFFFF"
         android:textSize="40dp"
         android:typeface="sans"
@@ -29,17 +29,40 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:src="@drawable/redorblack"/>
+        android:src="@drawable/upordown"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Dealer deals shit"
+        android:text="@string/rideTheBusQ2"
         android:textColor="#FFFFFF"
-        android:textSize="24dp"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/rideTheBusDrinks2Correct"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:typeface="sans"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/rideTheBusDrinks2Incorrect"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 
