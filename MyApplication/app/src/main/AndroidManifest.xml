@@ -67,7 +67,7 @@
         </activity>
         <activity
             android:name=".RideTheBusStart"
-            android:label="@string/title_activity_ride_the_bus_start"
+            android:label=""
             android:parentActivityName=".RideTheBusActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -76,7 +76,7 @@
         </activity>
         <activity
             android:name=".GetCrunkStart"
-            android:label="@string/title_activity_get_crunk_start"
+            android:label=""
             android:parentActivityName=".GetCrunkActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -85,7 +85,7 @@
         </activity>
         <activity
             android:name=".FingersStart"
-            android:label="@string/title_activity_fingers_start"
+            android:label=""
             android:parentActivityName=".FingersActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -94,7 +94,7 @@
         </activity>
         <activity
             android:name=".KingsCupStart"
-            android:label="@string/title_activity_kings_cup_start"
+            android:label=""
             android:parentActivityName=".KingsCupActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

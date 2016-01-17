@@ -20,11 +20,11 @@
     <string name="rideTheBusRound5">ROUND 5</string>
     <string name="rideTheBusPyramid">PYRAMID</string>
     <string name="rideTheBusRideBus">RIDE THE BUS</string>
-    <string name="rideTheBusQ1">Dealer: Ask each player "Red or Black?"</string>
-    <string name="rideTheBusQ2">Dealer: Ask each player "Higher or Lower?"</string>
-    <string name="rideTheBusQ3">Dealer: Ask each player "Between or Outside?"</string>
-    <string name="rideTheBusQ4">Dealer: Ask each player "Pick a suit?"</string>
-    <string name="rideTheBusQ5">Dealer: Ask each player "Pick a card?"</string>
+    <string name="rideTheBusQ1">Dealer: Ask each player \"Red or Black?\"</string>
+    <string name="rideTheBusQ2">Dealer: Ask each player \"Higher or Lower?\"</string>
+    <string name="rideTheBusQ3">Dealer: Ask each player \"Between or Outside?\"</string>
+    <string name="rideTheBusQ4">Dealer: Ask each player \"Pick a suit?\"</string>
+    <string name="rideTheBusQ5">Dealer: Ask each player \"Pick a card? (Disregard suit)\"</string>
     <string name="rideTheBusDrinks1Correct">If correct, player gives 1 drink.</string>
     <string name="rideTheBusDrinks1Incorrect">If incorrect, player takes 1 drink.</string>
     <string name="rideTheBusDrinks2Correct">If correct, player gives 2 drinks.</string>
@@ -36,9 +36,9 @@
     <string name="rideTheBusDrinks5Correct">If correct, player gives 5 drinks.</string>
     <string name="rideTheBusDrinks5Incorrect">If incorrect, player takes 5 drinks.</string>
     <string name="rideTheBusPyramidMessage1">Dealer: Deal cards in pyramid arrangement shown above. Flip cards one at a time starting at the top row.</string>
-    <string name="rideTheBusPyramidMessage2">Players: you may put down a card in your hand of it matches a card that has been flipped by the dealer. </string>
+    <string name="rideTheBusPyramidMessage2">Players: you may put down a card in your hand if it matches a card that has been flipped by the dealer. </string>
     <string name="rideTheBusPyramidMessage3">The number of drinks you may give out is proportional to the row (e.g. 1st row = 1 drink; 5th row = 5 drinks)</string>
-    <string name="rideTheBusRideBusMessage1">The player with the most cards in their hand must now "ride the bus".</string>
+    <string name="rideTheBusRideBusMessage1">The player with the most cards in their hand must now \"ride the bus\".</string>
     <string name="rideTheBusRideBusMessage2">Dealer: Place 5 cards down on the table. Flip them in front of the player who is about to ride the bus.</string>
     <string name="rideTheBusRideBusMessage3">Starting on the left, ask the player whether the next dealt card will be higher or lower. Next, deal a card on top of the first card.</string>
     <string name="rideTheBusRideBusMessage4">If the player was correct, they move on to the next card. If they were incorrect, they return to the first card and take 1 drink.</string>
@@ -94,7 +94,7 @@
     <string name="kingsCupJackName">Rule Master</string>
     <string name="kingsCupJackRule">Make a rule that will last the entire game. If broken, the violator must drink.</string>
     <string name="kingsCupQueenName">Question Master</string>
-    <string name="kingsCupQueenRule">You are now the "Question Master" until the next Queen is drawn. Whenever a player answers one of your questions, they must take a drink.</string>
+    <string name="kingsCupQueenRule">You are now the \"Question Master\" until the next Queen is drawn. Whenever a player answers one of your questions, they must take a drink.</string>
     <string name="kingsCupKingName">Kings Cup</string>
     <string name="kingsCupKingRule">Pour some of your drink into the Kings Cup. When the last king is drawn, the player must drink the entire cup.</string>
     <string name="title_activity_kings_cup_materials">KingsCupMaterials</string>
