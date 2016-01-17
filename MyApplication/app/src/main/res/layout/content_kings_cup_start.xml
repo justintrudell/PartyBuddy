@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,24 +23,314 @@
     <ImageView
         android:id="@+id/kingsCupImageView"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
         android:layout_width="340dp"
-        android:layout_height="140dp"
+        android:layout_height="100dp"
         android:src="@drawable/waterfall"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:text="@string/kingsCupAceRule"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="16dp"
         android:typeface="sans"
         android:layout_gravity="center"/>
 
+<<<<<<< HEAD
+=======
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/you"/>
+>>>>>>> 64c3de1a9a7592644b7bf4b675a756109eed373e
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup2Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/me"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup3Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/whores"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup4Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/thumbmaster"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup5Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/dicks"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup6Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/heaven"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup7Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup8Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rhyme"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup9Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/categories"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCup10Rule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rulemaster"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCupJackRule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/rulemaster"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCupJackRule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/questionmaster"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCupQueenRule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/kingsCupImageView"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="340dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kingcup"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/kingsCupKingRule"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        android:typeface="sans"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
+
+</ScrollView>

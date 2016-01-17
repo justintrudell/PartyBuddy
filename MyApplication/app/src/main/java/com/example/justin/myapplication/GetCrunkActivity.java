@@ -22,7 +22,7 @@ public class GetCrunkActivity extends AppCompatActivity {
     }
 
     public void goToGetCrunkStart(View view) {
-        Intent intent = new Intent(this, GetCrunkActivity.class);
+        Intent intent = new Intent(this, GetCrunkStart.class);
         startActivity(intent);
     }
 
