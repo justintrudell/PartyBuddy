@@ -1,5 +1,6 @@
 package com.example.justin.myapplication;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.media.Image;
 import android.os.Bundle;
@@ -93,6 +94,11 @@ public class RideTheBusActivity extends AppCompatActivity {
 
 
         return list;
+    }
+
+    public void goRideTheBusInstructions(View view) {
+        Intent intent = new Intent(this, RideTheBusInstructions.class);
+        startActivity(intent);
     }
 
 }

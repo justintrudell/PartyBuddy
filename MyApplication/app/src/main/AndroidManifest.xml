@@ -73,7 +73,19 @@
         </activity>
         <activity
             android:name=".KingsCupHowToPlay"
-            android:label="@string/title_activity_kings_cup_how_to_play"></activity>
+            android:label="@string/title_activity_kings_cup_how_to_play" />
+        <activity
+            android:name=".RideTheBusInstructions"
+            android:label="@string/title_activity_ride_the_bus_instructions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GetCrunkInstructions"
+            android:label="@string/title_activity_get_crunk_instructions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FingersInstructions"
+            android:label="@string/title_activity_fingers_instructions"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
