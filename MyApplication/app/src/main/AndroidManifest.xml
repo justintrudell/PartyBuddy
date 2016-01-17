@@ -192,13 +192,8 @@
                 android:value="com.example.justin.myapplication.FingersStep4" />
         </activity>
         <activity
-<<<<<<< HEAD
             android:name=".FingersStep6"
-            android:label="@string/title_activity_finger_step6"
-=======
-            android:name=".FingerStep6"
             android:label=""
->>>>>>> e3caa92d18849fa7d117b7271a597f9720f8d370
             android:parentActivityName=".FingersStep5"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

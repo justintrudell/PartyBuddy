@@ -37,10 +37,10 @@ public class FingersActivity extends AppCompatActivity {
 
         int group_names[] = { R.drawable.summary, R.drawable.whatyouneed,R.drawable.howtoplay };
 
-        String text_groups[] = { getResources().getString(R.string.rideTheBusDesc), getResources().getString(R.string.rideTheBusPlayers),
-                getResources().getString(R.string.rideTheBusMaterials),
-                getResources().getString(R.string.rideTheBusInstructionsLine1), getResources().getString(R.string.rideTheBusInstructionsLine2),
-                getResources().getString(R.string.rideTheBusInstructionsLine3), getResources().getString(R.string.rideTheBusInstructionsLine4)};
+        String text_groups[] = { getResources().getString(R.string.fingersDesc), getResources().getString(R.string.fingersPlayers),
+                getResources().getString(R.string.fingersMaterialsLine1),
+                getResources().getString(R.string.fingersInstructionsLine1), getResources().getString(R.string.fingersInstructionsLine2),
+                getResources().getString(R.string.fingersInstructionsLine3), getResources().getString(R.string.fingersInstructionsLine4)};
 
         ArrayList<Group> list = new ArrayList<Group>();
 

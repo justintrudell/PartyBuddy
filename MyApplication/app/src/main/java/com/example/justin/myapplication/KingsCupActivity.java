@@ -37,10 +37,9 @@ public class KingsCupActivity extends AppCompatActivity {
 
         int group_names[] = { R.drawable.summary, R.drawable.whatyouneed,R.drawable.howtoplay };
 
-        String text_groups[] = { getResources().getString(R.string.rideTheBusDesc), getResources().getString(R.string.rideTheBusPlayers),
-                getResources().getString(R.string.rideTheBusMaterials),
-                getResources().getString(R.string.rideTheBusInstructionsLine1), getResources().getString(R.string.rideTheBusInstructionsLine2),
-                getResources().getString(R.string.rideTheBusInstructionsLine3), getResources().getString(R.string.rideTheBusInstructionsLine4)};
+        String text_groups[] = { getResources().getString(R.string.kingsCupDesc), getResources().getString(R.string.kingsCupPlayers),
+                getResources().getString(R.string.kingsCupMaterialsLine1), getResources().getString(R.string.kingsCupMaterialsLine2),
+                getResources().getString(R.string.kingsCupInstructionsLine1), getResources().getString(R.string.kingsCupInstructionsLine2) };
 
         ArrayList<Group> list = new ArrayList<Group>();
 
@@ -66,7 +65,7 @@ public class KingsCupActivity extends AppCompatActivity {
         gru = new Group();
         gru.setImage(group_name);
         ch_list = new ArrayList<Child>();
-        for (; j < 3; j++) {
+        for (; j < 4; j++) {
             Child ch = new Child();
             ch.setText(text_groups[j]);
             ch_list.add(ch);
@@ -79,7 +78,7 @@ public class KingsCupActivity extends AppCompatActivity {
         gru = new Group();
         gru.setImage(group_name);
         ch_list = new ArrayList<Child>();
-        for (; j < 7; j++) {
+        for (; j < 6; j++) {
             Child ch = new Child();
             ch.setText(text_groups[j]);
             ch_list.add(ch);

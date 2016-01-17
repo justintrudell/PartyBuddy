@@ -37,10 +37,8 @@ public class GetCrunkActivity extends AppCompatActivity {
 
         int group_names[] = { R.drawable.summary, R.drawable.whatyouneed,R.drawable.howtoplay };
 
-        String text_groups[] = { getResources().getString(R.string.rideTheBusDesc), getResources().getString(R.string.rideTheBusPlayers),
-                getResources().getString(R.string.rideTheBusMaterials),
-                getResources().getString(R.string.rideTheBusInstructionsLine1), getResources().getString(R.string.rideTheBusInstructionsLine2),
-                getResources().getString(R.string.rideTheBusInstructionsLine3), getResources().getString(R.string.rideTheBusInstructionsLine4)};
+        String text_groups[] = { getResources().getString(R.string.getCrunkDesc), getResources().getString(R.string.getCrunkPlayers),
+         "LOL just kidding", "This is illegal" };
 
         ArrayList<Group> list = new ArrayList<Group>();
 
@@ -79,7 +77,7 @@ public class GetCrunkActivity extends AppCompatActivity {
         gru = new Group();
         gru.setImage(group_name);
         ch_list = new ArrayList<Child>();
-        for (; j < 7; j++) {
+        for (; j < 4; j++) {
             Child ch = new Child();
             ch.setText(text_groups[j]);
             ch_list.add(ch);

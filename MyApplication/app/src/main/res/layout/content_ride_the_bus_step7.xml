@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:src="@drawable/done"/>
+        android:src="@drawable/fivecards"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -102,7 +102,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/next"
+        android:src="@drawable/done"
         android:layout_marginTop="20dp"
         android:onClick="goToHome"/>
 

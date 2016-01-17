@@ -46,8 +46,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/next"
-        android:layout_marginTop="140dp"
+        android:src="@drawable/done"
+        android:layout_marginTop="130dp"
         android:onClick="goToHome"/>
 
 </LinearLayout>
