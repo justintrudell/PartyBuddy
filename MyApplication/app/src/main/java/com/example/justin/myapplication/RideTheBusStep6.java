@@ -1,5 +1,6 @@
 package com.example.justin.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,6 +14,7 @@ public class RideTheBusStep6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ride_the_bus_step6);
+        setTitle("Step 6");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -25,6 +27,11 @@ public class RideTheBusStep6 extends AppCompatActivity {
             }
         });
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    public void goToRideTheBusStep7(View view) {
+        Intent intent = new Intent(this, RideTheBusStep7.class);
+        startActivity(intent);
     }
 
 }
