@@ -6,8 +6,13 @@
     <string name="title_activity_display_message">My Message</string>
     <string name="title_activity_ride_the_bus">ride the bus</string>
     <string name="rideTheBus">Ride the Bus</string>
-    <string name="rideTheBusDesc">Requires a combination of luck and logic in order to not get completely wasted.</string>
-    <string name="rideTheBusPlayers">2 or more players</string>
+    <string name="rideTheBusDesc">• Requires a combination of luck and logic in order to not get completely wasted.</string>
+    <string name="rideTheBusPlayers">• 2 or more players</string>
+    <string name="rideTheBusMaterials">• Deck of cards</string>
+    <string name="rideTheBusInstructionsLine1">• Assign one player as dealer; the rest of the players should arrange themselves in a circle or around a table</string>
+    <string name="rideTheBusInstructionsLine2">• Dealer asks each player a different question for each round </string>
+    <string name="rideTheBusInstructionsLine3">• Once the player makes a guess, the dealer flips the next card</string>
+    <string name="rideTheBusInstructionsLine4">• Correct guesses mean the player gives away drinks. Incorrect guesses mean player takes drinks.</string>
     <string name="kingsCup">Kings Cup</string>
     <string name="kingsCupDesc">Players drink and give drinks to other players based on cards drawn from a standard deck of cards.</string>
     <string name="kingsCupPlayers">2 or more players</string>
@@ -20,7 +25,6 @@
     <string name="title_activity_kings_cup">Kings Cup</string>
     <string name="title_activity_get_crunk">Get Crunk</string>
     <string name="title_activity_fingers">Fingers</string>
-<<<<<<< HEAD
     <string name="kingsCupAceName">Waterfall</string>
     <string name="kingsCupAceRule">Start drinking; each player starts drinking at the same time as the person to their left. Player cannot stop until the player before them stops.</string>
     <string name="kingsCup2Name">You</string>
@@ -49,7 +53,4 @@
     <string name="kingsCupKingRule">Pour some of your drink into the Kings Cup. When the last king is drawn, the player must drink the entire cup.</string>
     <string name="title_activity_kings_cup_materials">KingsCupMaterials</string>
     <string name="title_activity_kings_cup_how_to_play">KingsCupHowToPlay</string>
-=======
-    <string name="title_activity_kings_cup_materials">KingsCupMaterials</string>
->>>>>>> 628e78a58c6f1f434151f85dd294eba835d7bc95
 </resources>

@@ -38,33 +38,59 @@ public class RideTheBusActivity extends AppCompatActivity {
 
     public ArrayList<Group> SetStandardGroups() {
 
-        int group_names[] = { R.drawable.summary, R.drawable.howtoplay, R.drawable.whatyouneed };
+        int group_names[] = { R.drawable.summary, R.drawable.whatyouneed,R.drawable.howtoplay };
 
-        String text_groups[] = { "AAAAAAAAAAAA", "BBBBBBBBBBBB",
-                "CCCCCCCCCCCCCCCCC" };
+        String text_groups[] = { getResources().getString(R.string.rideTheBusDesc), getResources().getString(R.string.rideTheBusPlayers),
+                getResources().getString(R.string.rideTheBusMaterials),
+                getResources().getString(R.string.rideTheBusInstructionsLine1), getResources().getString(R.string.rideTheBusInstructionsLine2),
+                getResources().getString(R.string.rideTheBusInstructionsLine3), getResources().getString(R.string.rideTheBusInstructionsLine4)};
 
         ArrayList<Group> list = new ArrayList<Group>();
 
         ArrayList<Child> ch_list;
 
-        int size = 1;
         int j = 0;
 
-        for (int group_name : group_names) {
-            Group gru = new Group();
-            gru.setImage(group_name);
-
-            ch_list = new ArrayList<Child>();
-            for (; j < size; j++) {
-                Child ch = new Child();
-                ch.setText(text_groups[j]);
-                ch_list.add(ch);
-            }
-            gru.setItems(ch_list);
-            list.add(gru);
-            size++;
-
+        // Summary
+        int group_name = group_names[0];
+        Group gru = new Group();
+        gru.setImage(group_name);
+        ch_list = new ArrayList<Child>();
+        for (; j < 2; j++) {
+            Child ch = new Child();
+            ch.setText(text_groups[j]);
+            ch_list.add(ch);
         }
+        gru.setItems(ch_list);
+        list.add(gru);
+
+        // Materials
+        group_name = group_names[1];
+        gru = new Group();
+        gru.setImage(group_name);
+        ch_list = new ArrayList<Child>();
+        for (; j < 3; j++) {
+            Child ch = new Child();
+            ch.setText(text_groups[j]);
+            ch_list.add(ch);
+        }
+        gru.setItems(ch_list);
+        list.add(gru);
+
+        // How to play
+        group_name = group_names[2];
+        gru = new Group();
+        gru.setImage(group_name);
+        ch_list = new ArrayList<Child>();
+        for (; j < 7; j++) {
+            Child ch = new Child();
+            ch.setText(text_groups[j]);
+            ch_list.add(ch);
+        }
+        gru.setItems(ch_list);
+        list.add(gru);
+
+
 
         return list;
     }
