@@ -53,8 +53,5 @@
     <string name="kingsCupKingRule">Pour some of your drink into the Kings Cup. When the last king is drawn, the player must drink the entire cup.</string>
     <string name="title_activity_kings_cup_materials">KingsCupMaterials</string>
     <string name="title_activity_kings_cup_how_to_play">KingsCupHowToPlay</string>
-<<<<<<< HEAD
-=======
-
->>>>>>> 34644814d5c6ab0a38352f0e86716b0919de56df
+    <string name="title_activity_ride_the_bus_step1">RideTheBusStep1</string>
 </resources>

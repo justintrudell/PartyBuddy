@@ -63,17 +63,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.justin.myapplication.MainActivity" />
         </activity>
-        <activity
-            android:name=".KingsCupMaterials"
-            android:label="@string/title_activity_kings_cup_materials"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.justin.myapplication.MainActivity" />
-        </activity>
-        <activity
-            android:name=".KingsCupHowToPlay"
-            android:label="@string/title_activity_kings_cup_how_to_play"></activity>
     </application>
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 </manifest>
