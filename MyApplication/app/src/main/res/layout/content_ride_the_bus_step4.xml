@@ -19,9 +19,9 @@
         android:layout_height="wrap_content"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="ROUND 4"
+        android:text="@string/rideTheBusRound4"
         android:textColor="#FFFFFF"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 
@@ -34,20 +34,44 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="20dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="Dealer deals shit"
+        android:text="@string/rideTheBusQ4"
         android:textColor="#FFFFFF"
-        android:textSize="24dp"
+        android:textSize="20sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/rideTheBusDrinks4Correct"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:typeface="sans"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/rideTheBusDrinks4Incorrect"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:typeface="sans"
+        android:gravity="center_horizontal"/>
+
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/next"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="70dp"
         android:onClick="goToRideTheBusStep5"/>
 
 </LinearLayout>

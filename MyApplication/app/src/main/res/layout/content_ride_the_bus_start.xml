@@ -21,7 +21,7 @@
         android:paddingRight="10dp"
         android:text="@string/rideTheBusRound1"
         android:textColor="#FFFFFF"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 
@@ -39,7 +39,7 @@
         android:paddingRight="10dp"
         android:text="@string/rideTheBusQ1"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 
@@ -51,7 +51,7 @@
         android:paddingRight="10dp"
         android:text="@string/rideTheBusDrinks1Correct"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
     <TextView
@@ -62,7 +62,7 @@
         android:paddingRight="10dp"
         android:text="@string/rideTheBusDrinks1Incorrect"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 

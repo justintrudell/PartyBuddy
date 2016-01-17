@@ -21,7 +21,7 @@
         android:paddingRight="10dp"
         android:text="@string/rideTheBusRound3"
         android:textColor="#FFFFFF"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 
@@ -29,7 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:src="@drawable/upordown"/>
+        android:src="@drawable/betweenoroutside"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -37,9 +37,9 @@
         android:layout_marginTop="20dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/rideTheBusQ2"
+        android:text="@string/rideTheBusQ3"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 
@@ -49,20 +49,21 @@
         android:layout_marginTop="25dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/rideTheBusDrinks2Correct"
+        android:text="@string/rideTheBusDrinks3Correct"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/rideTheBusDrinks2Incorrect"
+        android:text="@string/rideTheBusDrinks3Incorrect"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:typeface="sans"
         android:gravity="center_horizontal"/>
 
@@ -70,7 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/next"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="70dp"
         android:onClick="goToRideTheBusStep4"/>
 
 </LinearLayout>
