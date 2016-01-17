@@ -1,5 +1,6 @@
 package com.example.justin.myapplication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,6 +19,11 @@ public class GetCrunkActivity extends AppCompatActivity {
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    public void goToGetCrunkStart(View view) {
+        Intent intent = new Intent(this, GetCrunkActivity.class);
+        startActivity(intent);
     }
 
 }
